@@ -1,0 +1,88 @@
+.button {
+    background-color: #0070f3;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
+  
+  .container {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #181717 0%, #363535 100%);
+    min-height: 100vh;
+  }
+  
+  .title {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #e7e1e1;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.3); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    background-color: rgba(37, 37, 37, 0.9); 
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  .detailCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra la imagen y el texto horizontalmente */
+    justify-content: center; /* Centra la imagen y el texto verticalmente */
+    padding: 20px;
+  }
+  
+  .detailCard img {
+    max-width: 100%; /* Hace que la imagen sea responsiva */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .homeImage {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: block; /* Esto asegura que la imagen se centre */
+  }
+  
